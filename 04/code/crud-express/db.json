@@ -1,9 +1,9 @@
 {
     "students": [
         {"id": 1,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"},
-        {"id": 1,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"},
-        {"id": 1,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"},
-        {"id": 1,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"},
-        {"id": 1,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"}
+        {"id": 2,"name": "zhangsan", "age": "18", "gender": 0, "hobby": "play game"},
+        {"id": 3,"name": "zhangsan", "age": "18", "gender": 0, "hobby": "play game"},
+        {"id": 4,"name": "zhangsan", "age": "18", "gender": 1, "hobby": "play game"},
+        {"id": 5,"name": "zhangsan", "age": "18", "gender": 0, "hobby": "play game"}
     ]
 }
