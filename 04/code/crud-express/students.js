@@ -19,14 +19,18 @@ exports.save = function(student, callback){
         if(err){
             return callback(err)
         }
-        var students = JSON.parse(data.toString())
+        var students = JSON.parse(data.toString()).students
         student.id = students[students.length - 1].id + 1
         
         students.push(student)
-        fs.writeFile(dbPath,students, function(err){
+        var fileData = JSON.stringify({
+            students
+        })
+        fs.writeFile(dbPath,fileData, function(err){
             if(err){
                 return callback(err)
             }
+            callback(null)
         })
     })
 }
