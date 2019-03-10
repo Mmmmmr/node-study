@@ -102,8 +102,8 @@
                         <td>{{$value.age}}</td>
                         <td>{{$value.gender}}</td>
                         <td>{{$value.hobby}}</td>
-                        <td><a href="">编辑</a></td>
-                        <td><a href="">删除</a></td>
+                        <td><a href="/students/edit?id={{$value.id}}">编辑</a></td>
+                        <td><a href="/students/delete?id={{$value.id}}">删除</a></td>
                       </tr>
                   {{/each}}
               </tbody>
